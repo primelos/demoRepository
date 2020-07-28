@@ -29,3 +29,10 @@ git checkout -b {branch-name}   -> switch to a new branch
 git remote add origin https://github.com/primelos/demo-repo2.git  -> add a repository
 
 git remote set-url origin https.... -> switch back to another repository
+
+git diff feature-readme-instructions  -> to see the changes to master
+
+git pull origin master   -> update master on my comp
+or->  git pull    ->if you setup git push -u origin master
+
+git branch -d branch-name ->    delete a branch
