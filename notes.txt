@@ -1,0 +1,31 @@
+tutorial -> https://www.youtube.com/watch?v=RGOj5yH7evk&t=1221s
+
+git clone https://github.com/primelos/demo-repo.git -> clones the repo from github to 
+your machine.
+
+ls -la -> shows everything in a directory even hidden files.  it has all the changes 
+recorded in the history of this repository, including in github.
+
+git status -> shows what files were modified
+
+git add . -> tracks all files 
+git add index.html -> track only that file
+
+git commit -m 'message about commit' -> add message and you can add a description below
+git commit -m 'message about commit' -m 'description area'
+
+ssh-keygen -t rsa -b 4096 -C 'cvenegas9@gmail.com -> setup communication with github
+
+git remote add origin https://github.com/primelos/demo-repo2.git 
+
+git remote -v
+
+git push -u origin master -> -u to set it default to master now you only need git push
+
+git branch  -> gives you the branch
+
+git checkout -b {branch-name}   -> switch to a new branch
+
+git remote add origin https://github.com/primelos/demo-repo2.git  -> add a repository
+
+git remote set-url origin https.... -> switch back to another repository
